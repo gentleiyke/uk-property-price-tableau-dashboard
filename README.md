@@ -3,7 +3,7 @@
 ### Overview
 This project leverages data from HM Land Registry to analyse property sales between 2021 and 2023. Using Tableau, a dashboard was created to reveal key trends, patterns, and actionable insights within the real estate market, assisting stakeholders in making informed decisions.
 
-This analysis uncovers historical and current market trends while forecasting future movements, enabling a comprehensive understanding of the property market's dynamics.
+Explore the dynamics of the England and Wales property market and uncover insights that can shape your understanding of the real estate landscape! This analysis uncovers historical and current market trends while forecasting future movements, enabling a comprehensive understanding of the property market's dynamics. 
 
 ### Key Features
 1. Data Processing and Metrics
@@ -50,13 +50,10 @@ The dashboard is hosted on Tableau and visually visualises the property market t
 
 ### Collaborations
 Reach out to me using my contact below for gigs and collaborations.
+
 ikemefulaoriaku@gmail.com | (https://www.linkedin.com/in/gentleiyke/)
 
 ### Acknowledgements
-
 HM Land Registry: For providing the data that made this analysis possible.
 
-Tableau Community: For continuous support and resources.
-
-Explore the dynamics of the England and Wales property market and uncover insights that can shape your understanding of the real estate landscape!
 
