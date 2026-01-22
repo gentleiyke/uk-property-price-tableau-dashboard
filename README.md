@@ -1,59 +1,52 @@
-# Dynamics of England and Wales Property Market
+# Dynamics of England & Wales Property Market (2021–2023)
 
-### Overview
-This project leverages data from HM Land Registry to analyse property sales between 2021 and 2023. Using Tableau, a dashboard was created to reveal key trends, patterns, and actionable insights within the real estate market, assisting stakeholders in making informed decisions.
+![Dashboard preview](assets/UK_Property_Price_Dashboard.png)
 
-Explore the dynamics of the England and Wales property market and uncover insights that can shape your understanding of the real estate landscape! This analysis uncovers historical and current market trends while forecasting future movements, enabling a comprehensive understanding of the property market's dynamics. 
+Interactive Tableau dashboard analysing England & Wales property sales (2021–2023) using HM Land Registry data, with KPIs and short-horizon forecasts to support market understanding and locality-level comparison.
 
-### Key Features
-1. Data Processing and Metrics
-Calculated Fields were created using IF ELSE statements to classify properties according to the 
-- Age/Condition: Established and New Buildings
-- Lease Type: Leasehold and Freehold
-- Property Category
+## Live Dashboard
+- Tableau Public: [add link here]
+- Or open locally: `dashboard/UK_Property_Price.twbx` in Tableau Desktop or Tableau Public
 
-2. Key Performance Indicators (KPIs)
-The following KPIs were calculated:
-- Median Price: A robust indicator of market value, mitigating the effect of outliers.
-- Total Properties Sold: This captures the market activity levels.
-- Geographical Coverage: This highlights counties included in the dataset.
-- Properties Sold by Category: This differentiates established vs new buildings to identify buyer preferences.
-3. Visual Insights and Advanced Metrics
-Some advanced metrics were calculated to extract more key insights:
-- Yearly Comparison Table: Year-over-year property sales by category, illustrating market shifts.
-- Doughnut Chart: Ownership and lease type distribution, reflecting market composition.
-- Median Property Prices by Town: Localized insights into price variations.
-- 8-Month Forecasts:
-  - Area Chart: Projected median price trends.
-  - Line Chart: Predicted property sales volumes.
-- Dual-Axis Chart:
-  - Median property price trends by type.
-  - Quantity of properties sold.
-  - Interactive Slider: Enables dynamic filtering by town and year for tailored analyses.
-### Key Insights
-- Trends
-  - Less than 25% of registered property sales were leasehold, indicating a strong preference for outright ownership.
-  - Detached Houses: Most expensive properties
-  - Terraced Houses: The highest sales volumes reflect diverse buyer preferences and budget considerations.
-- Forecasting
-  - Median Price Growth: Predicted increase by the end of 2023, driven by demand and economic factors.
-  - Sales Volume Trends: Decline in overall sales with an anticipated spike by the end of Q2 2023, suggesting seasonal variations or market rejuvenation.
-### Dashboarding
-The dashboard is hosted on Tableau and visually visualises the property market trends. Explore the data through:
-- Filters for towns and years.
-- Drill-down views for localized insights.
-- Comparative analyses of property types, prices, and volumes.
+## Key Insights (2021–2023)
+- Leasehold sales were **<25%** of transactions, indicating a strong preference for outright ownership.  
+- **Detached houses** had the highest median prices, while **terraced houses** recorded the highest sales volumes.  
+- Median prices showed **£270,000** change from 2021 to 2023; sales volumes **29,370** over the same period.  
+- Highest median price towns: **NORTHWOOD (£1,650,000)**, **VIRGINIA WATER (£1,647,500)**, **BURES (£1,482,500)**.  
+- Forecast (8 months): median prices **rose by £39747 (£309,747)** directionally, while sales volumes showed **a spike (1,192) in June 2023** (see methodology).
 
-### Tools Used
-- Tableau: For data visualization and dashboard creation.
-- Excel/CSV Files: For data preparation and processing.
+> Note: Forecasts use Tableau’s built-in forecasting and are intended as directional indicators (see `docs/methodology.md`).
 
-### Collaborations
-Reach out to me using my contact below for gigs and collaborations.
+## What’s Included
+- Tableau packaged workbook (`.twbx`) with calculated fields and dashboard
+- Source dataset (`.csv`)
+- Dashboard image preview
 
-ikemefulaoriaku@gmail.com | (https://www.linkedin.com/in/gentleiyke/)
+## KPIs & Metrics
+- Median price (robust to outliers)
+- Total properties sold (market activity)
+- Geographic coverage (counties/towns)
+- Sales by property category (new vs established buildings)
+- Ownership/lease type distribution (leasehold vs freehold)
 
-### Acknowledgements
-HM Land Registry: For providing the data that made this analysis possible.
+## How to Run / View Locally
+1. Install Tableau Desktop or Login on to Tableau Public
+2. Open `dashboard/UK_Property_Price.twbx`
+3. Use filters (town/year) to explore price and volume trends
 
+## Data
+- Source: HM Land Registry (see acknowledgements)
+- Time window: 2021–2023
+- File: `data/UK-Property-Prices.csv`
+- Data dictionary: `docs/data_dictionary.md`
+
+## Limitations
+- Land Registry coverage/latency may affect most recent months.
+- Forecasts are statistical extrapolations; not a substitute for financial advice.
+
+## Acknowledgements
+HM Land Registry — for providing the underlying property transaction data.
+
+## Contact
+Ikemefula Oriaku — [LinkedIn](https://www.linkedin.com/in/gentleiyke/)
 
