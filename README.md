@@ -40,6 +40,20 @@ Interactive Tableau dashboard analysing England & Wales property sales (2021–2
 - File: `data/UK-Property-Prices.csv`
 - Data dictionary: `docs/data_dictionary.md`
 
+## Repository Structure
+```
+uk-property-price-tableau-dashboard/
+├── assets/
+│   ├── UK_Property_Price_Dashboard.png  # Dashboard Image Preview
+├── dashboard/
+│   ├── UK_Property_Price.twbx           # Tableau Workbook with Calculated fields and dashboards
+├── data/
+│   ├── UK-Property-Prices.csv           # Dataset
+├── docs/
+│   ├── data_dictionary.md               # Data Dictionary
+│   ├── methodology.md                   # Analytical and Visualisation Approach
+```
+
 ## Limitations
 - Land Registry coverage/latency may affect most recent months.
 - Forecasts are statistical extrapolations; not a substitute for financial advice.
